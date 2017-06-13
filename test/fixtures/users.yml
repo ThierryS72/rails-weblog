@@ -3,10 +3,10 @@
 bob:
   name: Bob
   email: bob@bob.com
-  password_digest: <%= BCrypt::Password.create('secret') %>
+  password_digest: <%= BCrypt::Password.create('supersecret') %>
   admin: true
 
 jane:
   name: Jane
   email: jane@jane.com
-  password_digest: <%= BCrypt::Password.create('secret') %>
+  password_digest: <%= BCrypt::Password.create('supersecret') %>
